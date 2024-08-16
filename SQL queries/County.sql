@@ -1,0 +1,38 @@
+WITH T1 AS (
+    SELECT DISTINCT
+        r1.iso GEO_PC_ISO,
+        Country.name_lang1 GEO_PC_COUNTRY,
+        r1.name_lang1 GEO_PC_REGION1,
+        r2.name_lang1 GEO_PC_REGION2,
+        pp.dst GEO_PC_DST,
+        pp.utc GEO_PC_UST,
+        pp.timezone GEO_PC_STATE_TIMEZONE,
+        r2.fips STATE_PROVINCE_FIPS,
+        FORMAT(tz.u_dst_start_date, 'MM/dd/2023 hh:mm') DST_START_DATETIME,
+        FORMAT(tz.u_dst_end_date, 'MM/dd/2023 hh:mm') DST_END_DATETIME
+    FROM
+        (SELECT iso, id, parent_id, name_lang1, region_type FROM GeoPC.dbo.GeoPC_WO_Regions_NORM WHERE level = '0') Country
+    JOIN GeoPC.dbo.GeoPC_WO_regions_NORM r1 ON Country.id = r1.parent_id
+    LEFT JOIN GeoPC.dbo.GeoPC_WO_regions_NORM r2 ON r1.id = r2.parent_id
+    LEFT JOIN GeoPC.dbo.GeoPC_WO_regions_NORM r3 ON r2.id = r3.parent_id
+    LEFT JOIN GeoPC.dbo.GeoPC_WO_places_NORM pp ON pp.region_id = r3.id
+    LEFT JOIN GeoPC.dbo.u_time_zone_db tz ON UPPER(tz.u_time_zone) = UPPER(pp.timezone)
+    WHERE Country.iso = 'IE'
+)
+SELECT DISTINCT
+    GEO_PC_ISO,
+    GEO_PC_COUNTRY,
+    GEO_PC_REGION1,
+    GEO_PC_REGION2,
+    CASE WHEN COUNT(GEO_PC_STATE_TIMEZONE) OVER(PARTITION BY GEO_PC_REGION2) > 1 THEN '' ELSE GEO_PC_DST END GEO_PC_DST,
+    CASE WHEN COUNT(GEO_PC_STATE_TIMEZONE) OVER(PARTITION BY GEO_PC_REGION2) > 1 THEN '' ELSE GEO_PC_UST END GEO_PC_UST,
+    CASE WHEN COUNT(GEO_PC_STATE_TIMEZONE) OVER(PARTITION BY GEO_PC_REGION2) > 1 THEN '' ELSE GEO_PC_STATE_TIMEZONE END GEO_PC_STATE_TIMEZONE,
+    STATE_PROVINCE_FIPS,
+    CASE WHEN COUNT(GEO_PC_STATE_TIMEZONE) OVER(PARTITION BY GEO_PC_REGION2) > 1 THEN '' ELSE DST_START_DATETIME END DST_START_DATETIME,
+    CASE WHEN COUNT(GEO_PC_STATE_TIMEZONE) OVER(PARTITION BY GEO_PC_REGION2) > 1 THEN '' ELSE DST_END_DATETIME END DST_END_DATETIME,
+    'EN' LANGUAGE,
+    'District' ADMIN_DIV_TYPE
+FROM T1
+ORDER BY 
+    GEO_PC_REGION1,
+    GEO_PC_REGION2;
