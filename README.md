@@ -34,7 +34,7 @@ The SQL queries in this repository perform the following tasks:
 ### **How to Use**
 
 1. **Review the Queries:** Check the SQL queries in this repository to understand the logic behind the data integration.
-2. **Run the Queries:** Execute the queries in your SQL environment to generate the output.
+2. **Sample Data Only:** Note that the tables uploaded in this GitHub repository contain only a limited sample of the data.
 3. **Export to CSV:** Use the output from the SQL queries to generate a CSV file.
 4. **Upload to ServiceNow:** Import the CSV file into ServiceNow as per their data import guidelines.
 
