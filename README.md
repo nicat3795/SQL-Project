@@ -18,18 +18,18 @@ The geographical data in this project includes various levels of administrative 
    
 **Objectives**
 
-1. **Data Consolidation:** Aggregate data from multiple tables into a single, coherent structure.
-2. **CSV Generation:** Export the consolidated data into a CSV file format.
-3. **ServiceNow Upload:** Ensure the CSV file is compatible for upload to ServiceNow.
+- **Data Consolidation:** Aggregate data from multiple tables into a single, coherent structure.
+- **CSV Generation:** Export the consolidated data into a CSV file format.
+- **ServiceNow Upload:** Ensure the CSV file is compatible for upload to ServiceNow.
    
 **SQL Queries**
 
 The SQL queries in this repository perform the following tasks:
 
-1. **Data Selection:** Select necessary fields from each table and join them based on relationships.
-2. **Data Formatting:** Format date and time fields for consistency.
-3. **Data Filtering:** Apply necessary filters to ensure only relevant data is included in the output.
-4. **Distinct Selection:** Ensure distinct records are selected to avoid duplication.
+- **Data Selection:** Select necessary fields from each table and join them based on relationships.
+- **Data Formatting:** Format date and time fields for consistency.
+- **Data Filtering:** Apply necessary filters to ensure only relevant data is included in the output.
+- **Distinct Selection:** Ensure distinct records are selected to avoid duplication.
 
 **How to Use**
 
