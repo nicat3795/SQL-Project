@@ -1,0 +1,50 @@
+Alias,'+13:00,'+12:00,AQ,"New Zealand time - McMurdo, South Pole",Antarctica/McMurdo,2024-10-27 02:00:00,2024-03-31 03:00:00
+Alias,'+02:00,'+02:00,CD,Dem. Rep. of Congo (east),Africa/Lubumbashi,2021-03-14 04:00:00,2021-11-07 02:00:00
+Alias,'+01:00,'+01:00,CD,Dem. Rep. of Congo (west),Africa/Kinshasa,2023-11-04 15:00:00,2023-03-11 17:00:00
+Alias,'+02:00,'+01:00,DE,Busingen,Europe/Busingen,2022-08-25 05:00:00,2022-03-03 03:00:00
+Alias,'-11:00,'-11:00,UM,Midway Islands,Pacific/Midway,2024-10-27 02:00:01,2024-03-31 03:00:01
+Canonical,'+11:00,'+11:00,AQ,Casey,Antarctica/Casey,2021-03-14 04:00:01,2021-11-07 02:00:01
+Canonical,'+07:00,'+07:00,AQ,Davis,Antarctica/Davis,2023-11-04 15:00:01,2023-03-11 17:00:01
+Canonical,'+10:00,'+10:00,AQ,Dumont-d'Urville,Antarctica/DumontDUrville,2022-08-25 05:00:01,2022-03-03 03:00:01
+Canonical,'+05:00,'+05:00,AQ,Mawson,Antarctica/Mawson,2024-10-27 02:00:02,2024-03-31 03:00:02
+Canonical,'-03:00,'-03:00,AQ,Palmer,Antarctica/Palmer,2021-03-14 04:00:02,2021-11-07 02:00:02
+Canonical,'-03:00,'-03:00,AQ,Rothera,Antarctica/Rothera,2023-11-04 15:00:02,2023-03-11 17:00:02
+Canonical,'+03:00,'+03:00,AQ,Syowa,Antarctica/Syowa,2022-08-25 05:00:02,2022-03-03 03:00:02
+Canonical,'+02:00,'+00:00,AQ,Troll,Antarctica/Troll,2024-10-27 02:00:03,2024-03-31 03:00:03
+Canonical,'+06:00,'+06:00,AQ,Vostok,Antarctica/Vostok,2021-03-14 04:00:03,2021-11-07 02:00:03
+Canonical,'-03:00,'-03:00,AR,"Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)",America/Argentina/Cordoba,2023-11-04 15:00:03,2023-03-11 17:00:03
+Canonical,'-03:00,'-03:00,AR,"Buenos Aires (BA, CF)",America/Argentina/Buenos_Aires,2022-08-25 05:00:03,2022-03-03 03:00:03
+Canonical,'-03:00,'-03:00,AR,Catamarca (CT); Chubut (CH),America/Argentina/Catamarca,2024-10-27 02:00:04,2024-03-31 03:00:04
+Canonical,'-03:00,'-03:00,AR,Jujuy (JY),America/Argentina/Jujuy,2021-03-14 04:00:04,2021-11-07 02:00:04
+Canonical,'-03:00,'-03:00,AR,La Rioja (LR),America/Argentina/La_Rioja,2023-11-04 15:00:04,2023-03-11 17:00:04
+Canonical,'-03:00,'-03:00,AR,Mendoza (MZ),America/Argentina/Mendoza,2022-08-25 05:00:04,2022-03-03 03:00:04
+Canonical,'-03:00,'-03:00,AR,"Salta (SA, LP, NQ, RN)",America/Argentina/Salta,2024-10-27 02:00:05,2024-03-31 03:00:05
+Canonical,'-03:00,'-03:00,AR,San Juan (SJ),America/Argentina/San_Juan,2021-03-14 04:00:05,2021-11-07 02:00:05
+Canonical,'-03:00,'-03:00,AR,San Luis (SL),America/Argentina/San_Luis,2023-11-04 15:00:05,2023-03-11 17:00:05
+Canonical,'-03:00,'-03:00,AR,Santa Cruz (SC),America/Argentina/Rio_Gallegos,2022-08-25 05:00:05,2022-03-03 03:00:05
+Canonical,'-03:00,'-03:00,AR,Tierra del Fuego (TF),America/Argentina/Ushuaia,2024-10-27 02:00:06,2024-03-31 03:00:06
+Canonical,'-03:00,'-03:00,AR,Tucuman (TM),America/Argentina/Tucuman,2021-03-14 04:00:06,2021-11-07 02:00:06
+Canonical,'+11:00,'+10:30,AU,Lord Howe Island,Australia/Lord_Howe,2023-11-04 15:00:06,2023-03-11 17:00:06
+Canonical,'+11:00,'+11:00,AU,Macquarie Island,Antarctica/Macquarie,2022-08-25 05:00:06,2022-03-03 03:00:06
+Canonical,'+11:00,'+10:00,AU,New South Wales (most areas),Australia/Sydney,2024-10-27 02:00:07,2024-03-31 03:00:07
+Canonical,'+10:30,'+09:30,AU,New South Wales (Yancowinna),Australia/Broken_Hill,2021-03-14 04:00:07,2021-11-07 02:00:07
+Canonical,'+09:30,'+09:30,AU,Northern Territory,Australia/Darwin,2023-11-04 15:00:07,2023-03-11 17:00:07
+Canonical,'+10:00,'+10:00,AU,Queensland (most areas),Australia/Brisbane,2022-08-25 05:00:07,2022-03-03 03:00:07
+Canonical,'+10:00,'+10:00,AU,Queensland (Whitsunday Islands),Australia/Lindeman,2024-10-27 02:00:08,2024-03-31 03:00:08
+Canonical,'+10:30,'+09:30,AU,South Australia,Australia/Adelaide,2021-03-14 04:00:08,2021-11-07 02:00:08
+Canonical,'+11:00,'+10:00,AU,Tasmania (King Island),Australia/Currie,2023-11-04 15:00:08,2023-03-11 17:00:08
+Canonical,'+11:00,'+10:00,AU,Tasmania (most areas),Australia/Hobart,2022-08-25 05:00:08,2022-03-03 03:00:08
+Canonical,'+11:00,'+10:00,AU,Victoria,Australia/Melbourne,2024-10-27 02:00:09,2024-03-31 03:00:09
+Canonical,'+08:45,'+08:45,AU,Western Australia (Eucla),Australia/Eucla,2021-03-14 04:00:09,2021-11-07 02:00:09
+Canonical,'+08:00,'+08:00,AU,Western Australia (most areas),Australia/Perth,2023-11-04 15:00:09,2023-03-11 17:00:09
+Canonical,'-05:00,'-05:00,BR,Acre,America/Rio_Branco,2022-08-25 05:00:09,2022-03-03 03:00:09
+Canonical,'-03:00,'-03:00,BR,"Alagoas, Sergipe",America/Maceio,2024-10-27 02:00:10,2024-03-31 03:00:10
+Canonical,'-04:00,'-04:00,BR,Amazonas (east),America/Manaus,2021-03-14 04:00:10,2021-11-07 02:00:10
+Canonical,'-05:00,'-05:00,BR,Amazonas (west),America/Eirunepe,2023-11-04 15:00:10,2023-03-11 17:00:10
+Canonical,'-02:00,'-02:00,BR,Atlantic islands,America/Noronha,2022-08-25 05:00:10,2022-03-03 03:00:10
+Canonical,'-03:00,'-03:00,BR,Bahia,America/Bahia,2024-10-27 02:00:11,2024-03-31 03:00:11
+Canonical,'-03:00,'-03:00,BR,"Brazil (northeast: MA, PI, CE, RN, PB)",America/Fortaleza,2021-03-14 04:00:11,2021-11-07 02:00:11
+Canonical,'-03:00,'-03:00,BR,"Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)",America/Sao_Paulo,2023-11-04 15:00:11,2023-03-11 17:00:11
+Canonical,'-04:00,'-04:00,BR,Mato Grosso,America/Cuiaba,2022-08-25 05:00:11,2022-03-03 03:00:11
+Canonical,'-04:00,'-04:00,BR,Mato Grosso do Sul,America/Campo_Grande,2024-10-27 02:00:12,2024-03-31 03:00:12
+Canonical,'-03:00,'-03:00,BR,Para (east); Amapa,America/Belem,2021-03-14 04:00:12,2021-11-07 02:00:12
